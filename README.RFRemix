@@ -1,0 +1,10 @@
+glpi-fusioninventory.rpm
+========================
+
+fusioninventory plugin for glpi (rpm build)
+Название: Плагин fusioninventory для glpi
+Мейнтэйнер(ы): legunt@yandex.ru
+Репозиторий: free
+Что изменено: исходники с сайта http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files
+Почему не в апстриме: мне это тоже интересно :)
+Комментарий: (опционально) 
