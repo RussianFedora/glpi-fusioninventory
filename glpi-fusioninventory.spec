@@ -22,7 +22,7 @@ Group:          Applications/Internet
 License:        AGPLv3+
 URL:            http://forge.fusioninventory.org/projects/fusioninventory-for-glpi
 
-Source0:        %{pluginname}-for-glpi-%{version}.tar.gz
+Source0:        fusioninventory-for-glpi-0.84.2.1.tar.gz
 Source1:        %{name}-httpd.conf
 
 
