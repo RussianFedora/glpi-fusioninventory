@@ -14,9 +14,9 @@ Name:           glpi-fusioninventory
 # New version schema : 2.4.0 = 0.80+1.0 < 0.80+1.1 < 0.83+1.0
 Epoch:          1
 Version:        %{glpi_version}.%{plug_version}
-Release:        2%{?dist}
-Summary:        FusionInventory is a free and open source project providing hardware, software inventory, software deployment and network discovery to the IT asset management and helpdesk software called GLPI. "FusionInventory for GLPI" is a collection of plugins communicating with some agents (FusionInventory-Agent), deployed on computers
-Summary(ru):	FusionInventory является свободным проектом с открытым исходным кодом обеспечивающий сбор информации об оборудовании, инвентаризации программного обеспечения, развертывании программного обеспечения и обнаружения сети для системы управления ИТ-активами и поддержки программного обеспечения, называемого GLPI. "FusionInventory для GLPI" - это коллекция плагинов соединенные с некоторыми агентами (FusionInventory-Агент), развернутых на компьютерах
+Release:        3%{?dist}
+Summary:        FusionInventory Server embedded as a GLPI plugin
+Summary(ru):	FusionInventory Server плагин для GLPI
 Summary(fr):    Serveur FusionInventory en extension pour GLPI
 
 Group:          Applications/Internet
@@ -52,7 +52,10 @@ Requires:       glpi <  0.85
 
 
 %description
-FusionInventory Server embedded as a plugin into GLPI.
+FusionInventory is a free and open source project providing hardware, software inventory, software deployment and network discovery to the IT asset management and helpdesk software called GLPI. "FusionInventory for GLPI" is a collection of plugins communicating with some agents (FusionInventory-Agent), deployed on computers
+
+%description -l ru
+FusionInventory является свободным проектом с открытым исходным кодом обеспечивающий сбор информации об оборудовании, инвентаризации программного обеспечения, развертывании программного обеспечения и обнаружения сети для системы управления ИТ-активами и поддержки программного обеспечения, называемого GLPI. "FusionInventory для GLPI" - это коллекция плагинов соединенные с некоторыми агентами (FusionInventory-Агент), развернутых на компьютерах
 
 
 %description -l fr
