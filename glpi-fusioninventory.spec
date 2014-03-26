@@ -100,7 +100,7 @@ done
 
 
 %install
-rm -rf %{buildroot} 
+#rm -rf %{buildroot} 
 
 # Plugin
 mkdir -p %{buildroot}/%{_datadir}/glpi/plugins
