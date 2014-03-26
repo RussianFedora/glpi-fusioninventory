@@ -126,23 +126,7 @@ done | tee %{name}.lang
 %config(noreplace) %{_sysconfdir}/httpd/conf.d/%{name}.conf
 # fusioninventory
 %doc docs/*
-%dir %{_datadir}/glpi/plugins/%{pluginname}
-%dir %{_datadir}/glpi/plugins/%{pluginname}/locales
-# LICENSE file required by installation process
-%{_datadir}/glpi/plugins/%{pluginname}/LICENSE
-%{_datadir}/glpi/plugins/%{pluginname}/*.php
-%{_datadir}/glpi/plugins/%{pluginname}/*.js
-%{_datadir}/glpi/plugins/%{pluginname}/ajax
-%{_datadir}/glpi/plugins/%{pluginname}/b
-%{_datadir}/glpi/plugins/%{pluginname}/css
-%{_datadir}/glpi/plugins/%{pluginname}/front
-%{_datadir}/glpi/plugins/%{pluginname}/inc
-%{_datadir}/glpi/plugins/%{pluginname}/lib
-%{_datadir}/glpi/plugins/%{pluginname}/install
-%{_datadir}/glpi/plugins/%{pluginname}/pics
-%{_datadir}/glpi/plugins/%{pluginname}/report
-%{_datadir}/glpi/plugins/%{pluginname}/scripts
-%{_datadir}/glpi/plugins/%{pluginname}/snmpmodels
+%{_datadir}/glpi/plugins/%{pluginname}
 
 
 %changelog
