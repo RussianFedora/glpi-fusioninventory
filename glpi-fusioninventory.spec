@@ -8,13 +8,13 @@
 #
 %global pluginname    fusioninventory
 %global glpi_version  0.84
-%global plug_version  2.1
+%global plug_version  2.2
 
 Name:           glpi-fusioninventory
 # New version schema : 2.4.0 = 0.80+1.0 < 0.80+1.1 < 0.83+1.0
 Epoch:          1
 Version:        %{glpi_version}.%{plug_version}
-Release:        3%{?dist}
+Release:        1%{?dist}
 Summary:        FusionInventory Server embedded as a GLPI plugin
 Summary(ru):	FusionInventory Server плагин для GLPI
 Summary(fr):    Serveur FusionInventory en extension pour GLPI
@@ -23,7 +23,7 @@ Group:          Applications/Internet
 License:        AGPLv3+
 URL:            http://forge.fusioninventory.org/projects/fusioninventory-for-glpi
 
-Source0:        fusioninventory-for-glpi-0.84.2.1.tar.gz
+Source0:        fusioninventory-for-glpi-%{version}.tar.gz
 Source1:        %{name}-httpd.conf
 
 
@@ -137,7 +137,15 @@ rm -rf %{buildroot}
 
 %changelog
 
-* Mon Mar 24 2014 Oleg Kishinsky <legun@yandex.ru> - 1:0.84.2.1-1
+* Wed Mar 26 2014 Oleg Kishinsky <legunt@yandex.ru> - 1:0.84.2.2-1
+- update to 0.8.4+2.2 for GLPI 0.8.4
+- Fixed - Network inventory printer without SNMP model don't work 
+- Fixed - php error on blacklist
+- Fixed - php error with collect module
+- Fixed - php error on collect
+- Fixed - Problem on display port of switch
+
+* Mon Mar 24 2014 Oleg Kishinsky <legunt@yandex.ru> - 1:0.84.2.1-1
 - add Summary on Russian Language
 * Thu Mar 21 2014 Oleg Kishinsky <legunt@yandex.ru> - 1:0.84.0.2.1-1
 - update to 0.8.4.+2.1 for GLPI 0.8.4
