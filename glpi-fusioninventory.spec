@@ -117,7 +117,7 @@ do
 done | tee %{name}.lang
 
 
-%clean
+#%clean
 #rm -rf %{buildroot} 
 
 
