@@ -8,7 +8,7 @@
 #
 %global pluginname    fusioninventory
 %global glpi_version  0.84
-%global plug_version  2.2
+%global plug_version  3.2
 
 Name:           glpi-fusioninventory
 # New version schema : 2.4.0 = 0.80+1.0 < 0.80+1.1 < 0.83+1.0
@@ -23,7 +23,7 @@ Group:          Applications/Internet
 License:        AGPLv3+
 URL:            http://forge.fusioninventory.org/projects/fusioninventory-for-glpi
 
-Source0:        http://forge.fusioninventory.org/attachments/download/1315/fusioninventory-for-glpi_0.84+2.2.tar.gz
+Source0:        http://forge.fusioninventory.org/attachments/download/1315/fusioninventory-for-glpi_0.84+3.2.tar.gz
 Source1:        %{name}-httpd.conf
 
 
