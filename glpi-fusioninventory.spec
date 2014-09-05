@@ -130,6 +130,9 @@ done | tee %{name}.lang
 
 
 %changelog
+* Fri Sep 05 2014 Oleg Kishinskiy <legunt@yandex.ru> - 1:0.84.3.4-1
+- update for new vertion
+
 * Wed Mar 26 2014 Oleg Kishinsky <legunt@yandex.ru> - 1:0.84.2.2-2
 - correct spec file
 
