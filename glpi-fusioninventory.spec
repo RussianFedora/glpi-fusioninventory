@@ -8,13 +8,13 @@
 #
 %global pluginname    fusioninventory
 %global glpi_version  0.84
-%global plug_version  3.2
+%global plug_version  3.3
 
 Name:           glpi-fusioninventory
 # New version schema : 2.4.0 = 0.80+1.0 < 0.80+1.1 < 0.83+1.0
 Epoch:          1
 Version:        %{glpi_version}.%{plug_version}
-Release:        2%{?dist}
+Release:        1%{?dist}
 Summary:        FusionInventory Server embedded as a GLPI plugin
 Summary(ru):	FusionInventory Server плагин для GLPI
 Summary(fr):    Serveur FusionInventory en extension pour GLPI
@@ -130,6 +130,9 @@ done | tee %{name}.lang
 
 
 %changelog
+* Mon Sep 08 2014 Oleg Kishinskiy <legunt@yandex.ru> - 1:0.84.3.3-1
+- Update for new vertion
+
 * Fri Sep 05 2014 Oleg Kishinskiy <legunt@yandex.ru> - 1:0.84.3.4-1
 - update for new vertion
 
