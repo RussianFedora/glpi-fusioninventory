@@ -7,8 +7,8 @@
 # Please, preserve the changelog entries
 #
 %global pluginname    fusioninventory
-%global glpi_version  0.84
-%global plug_version  3.5
+%global glpi_version  0.85
+%global plug_version  1.0
 
 Name:           glpi-fusioninventory
 # New version schema : 2.4.0 = 0.80+1.0 < 0.80+1.1 < 0.83+1.0
@@ -23,7 +23,7 @@ Group:          Applications/Internet
 License:        AGPLv3+
 URL:            http://forge.fusioninventory.org/projects/fusioninventory-for-glpi
 
-Source0:        http://forge.fusioninventory.org/attachments/download/1665/fusioninventory-for-glpi_0.84+3.5.tar.gz
+Source0:        http://forge.fusioninventory.org/attachments/download/1719/fusioninventory-for-glpi_0.85+1.0.tar.gz
 Source1:        %{name}-httpd.conf
 
 
@@ -130,6 +130,9 @@ done | tee %{name}.lang
 
 
 %changelog
+* Mon Jan 12 2015 Oleg Kishinskiy <legunt@yandex.ru> - 1:0.85.1.0-1
+- Update for new vertion
+
 * Thu Sep 21 2014 Oleg Kishinskiy <legunt@yandex.ru> - 1:0.84.3.4-1
 - Update for new vertion
 
